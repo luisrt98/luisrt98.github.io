@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://luisrt98.github.io/sitemap.xml
