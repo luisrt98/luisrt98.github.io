@@ -1,7 +1,7 @@
 const posts = ["post1.md", "post2.md"];
 
 async function fetchPost(file) {
-  const res = await fetch("posts/" + file);
+  const res = await fetch(`posts/${file}`);
   const text = await res.text();
 
   const title = text.match(/title: \"(.+?)\"/)?.[1] || "Sin título";
