@@ -15,6 +15,25 @@
     </nav>
   </header>
   <main>
+    <!-- Gráfico en tiempo real de la cotización del oro -->
+<div class="tradingview-widget-container" style="margin-top: 2rem;">
+  <div id="tradingview_gold"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+    "symbol": "OANDA:XAUUSD",
+    "width": "100%",
+    "height": "220",
+    "locale": "es",
+    "dateRange": "1D",
+    "colorTheme": "light",
+    "trendLineColor": "#2196F3",
+    "underLineColor": "rgba(66, 165, 245, 0.15)",
+    "isTransparent": false,
+    "autosize": true
+  }
+  </script>
+</div>
+
     <h2>Últimos artículos</h2>
     <ul id="latest-posts"></ul>
   </main>
