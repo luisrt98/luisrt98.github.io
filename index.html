@@ -1,27 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-    <title>Economista Sumergido</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/img/vivalalibertadcarajo.jpg">
-    <meta name="author" content="Luis Rodríguez de la Torre">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economista Sumergido | Blog de Economía</title>
+    <link rel="icon" href="/img/vivalalibertadcarajo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <div class="intro">
-    <h3>Un poco de todo</h3>
-    <p>Comparto contenido de intereses varios relacionados con la economía. En esta disciplina es importante no precipitarse a la hora de hacer <br>
-       juicios de valor sin llegar a comprender los fundamentos y conceptos de los que estamos hablando. Para cumplir este cometido me gustaría <br>
-       comenzar con el estudio de términos que con frecuencia se les da un uso erróneo o, en el mejor de los casos, no del todo acertado. En la <br>
-       sección de artículos será donde iré publicando estos "estudios". <br>
-       La historia económica juega un papel fundamental para comprender los procesos y dinámicas que han propiciado la mejora material de las <br>
-       sociedades, así como la decadencia de las mismas. Por eso también encontraréis algunos artículos sobre historia económica que considere <br>
-       relevantes para el lector. <br>
-    </p>
-    <p>En la sección opinión encontraréis comentarios acerca de las distintas medidas de política económica que se han adoptado en España así como <br>
-        sus efectos y mejores alternativas para la economía de nuestro país. 
-    </p>
-    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Economista Sumergido</h1>
+                <p>Explorando la economía desde las profundidades</p>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#">Artículos</a></li>
+                    <li><a href="#">Análisis</a></li>
+                    <li><a href="#">Sobre mí</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Economía accesible para todos</h2>
+                <p>Descubre análisis económicos, tendencias del mercado y conceptos financieros explicados de manera
+                    sencilla y clara.</p>
+                <a href="#" class="btn">Leer el último artículo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <section class="recent-posts">
+                <h2 class="section-title">Entradas Recientes</h2>
+                <div class="posts-grid">
+                    <!-- Post 1 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                                alt="Inflación">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-category">Macroeconomía</span>
+                            <h3 class="post-title">Entendiendo la inflación en tiempos modernos</h3>
+                            <p class="post-excerpt">Un análisis detallado sobre las causas y efectos de la inflación en
+                                la economía actual y cómo afecta a tu bolsillo.</p>
+                            <div class="post-meta">
+                                <span class="post-date">15 de Octubre, 2023</span>
+                                <a href="#" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 2 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                                alt="Criptomonedas">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-category">Finanzas</span>
+                            <h3 class="post-title">El futuro de las criptomonedas: ¿Burbuja o revolución?</h3>
+                            <p class="post-excerpt">Exploramos el panorama actual de las criptomonedas y su posible
+                                impacto en el sistema financiero tradicional.</p>
+                            <div class="post-meta">
+                                <span class="post-date">8 de Octubre, 2023</span>
+                                <a href="#" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 3 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                                alt="Mercado laboral">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-category">Mercado Laboral</span>
+                            <h3 class="post-title">Tendencias del mercado laboral post-pandemia</h3>
+                            <p class="post-excerpt">Cómo ha cambiado el mundo del trabajo después de la pandemia y qué
+                                habilidades serán más valoradas.</p>
+                            <div class="post-meta">
+                                <span class="post-date">1 de Octubre, 2023</span>
+                                <a href="#" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 4 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                                alt="Inversiones">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-category">Inversiones</span>
+                            <h3 class="post-title">Guía para principiantes en el mundo de las inversiones</h3>
+                            <p class="post-excerpt">Conceptos básicos que todo inversionista novato debe conocer antes
+                                de adentrarse en los mercados financieros.</p>
+                            <div class="post-meta">
+                                <span class="post-date">24 de Septiembre, 2023</span>
+                                <a href="#" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="view-all-container">
+                    <a href="#" class="btn btn-outline">Ver todos los artículos</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Social Media Section -->
+    <section class="social-media">
+        <div class="container">
+            <h2 class="section-title">Sígueme en redes sociales</h2>
+            <p class="section-subtitle">Contenido adicional, análisis en tiempo real y discusiones económicas</p>
+            <div class="social-grid">
+                <a href="#" class="social-card instagram">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>Infografías y resúmenes visuales de conceptos económicos</p>
+                    <span class="social-link">@economista.sumergido</span>
+                </a>
+
+                <a href="#" class="social-card tiktok">
+                    <div class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <h3>TikTok</h3>
+                    <p>Videos cortos explicando conceptos económicos en 60 segundos</p>
+                    <span class="social-link">@economista.sumergido</span>
+                </a>
+
+                <a href="#" class="social-card youtube">
+                    <div class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube</h3>
+                    <p>Análisis en profundidad, entrevistas y tutoriales económicos</p>
+                    <span class="social-link">Economista Sumergido</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Suscríbete al newsletter</h2>
+                <p>Recibe análisis económicos exclusivos directamente en tu correo</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit" class="btn">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Economista Sumergido</h3>
+                    <p>Explorando la economía desde las profundidades</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Contenido</h4>
+                        <ul>
+                            <li><a href="#">Artículos</a></li>
+                            <li><a href="#">Análisis</a></li>
+                            <li><a href="#">Guías</a></li>
+                            <li><a href="#">Podcast</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Recursos</h4>
+                        <ul>
+                            <li><a href="#">Glosario económico</a></li>
+                            <li><a href="#">Herramientas</a></li>
+                            <li><a href="#">Libros recomendados</a></li>
+                            <li><a href="#">Enlaces útiles</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Conecta</h4>
+                        <ul>
+                            <li><a href="#">Sobre mí</a></li>
+                            <li><a href="#">Contacto</a></li>
+                            <li><a href="#">Política de privacidad</a></li>
+                            <li><a href="#">Términos de uso</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Economista Sumergido. Todos los derechos reservados.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
